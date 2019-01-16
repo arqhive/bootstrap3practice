@@ -26,3 +26,11 @@ Bootstrap의 Grid System은 최대 12개의 column을 허용한다.
 
 2. body와 모든p 요소에 적용된다.
 3. p요소에는 아래쪽 여백(기본 10px)이 있다.
+
+#### Colors mean...
+
+1. active -> 호버 색상
+2. success -> 성공 또는 긍정
+3. info -> 중립 또는 정보의 변화
+4. warning -> 경고
+5. danger -> 위험하거나 잠재적 부정행동
