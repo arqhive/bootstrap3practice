@@ -1,0 +1,80 @@
+<!-- 1. DOCTYPE을 선언한다. -->
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <!-- 2. Bootstrap3는 모바일 우선이다. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- 부트스트랩의 CSS만 사용하면 해당 jQuery library는 필요 없다. -->
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <!-- 둥근 모서리 (IE8 지원 안함) -->
+    <img src="image/frog.jpeg" class="img-rounded" alt="frog" />
+
+    <!-- 원모양 이미지 -->
+    <img src="image/snake.jpeg" class="img-circle" alt="snake" />
+
+    <!-- 썸네일 이미지 -->
+    <img src="image/horse.png" class="img-thumbnail" alt="horse" />
+
+    <!-- 반응형 이미지 -->
+    <div class="container">
+      <h2>반응형 이미지</h2>
+      <img class="img-responsive" src="image/frog.jpeg" alt="frog" width="460" height="340" />
+
+      <h2>이미지 갤러리</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img src="image/frog.jpeg" alt="frog" style="width: 100%" />
+            <div class="caption">
+              <p>
+                개구리
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img src="image/frog.jpeg" alt="frog" style="width: 100%" />
+            <div class="caption">
+              <p>
+                개구리
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img src="image/frog.jpeg" alt="frog" style="width: 100%" />
+            <div class="caption">
+              <p>
+                개구리
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2>반응형 embed 화면 전체 폭임</h2>
+
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+      </div>
+
+    </div>
+  </body>
+
+</html>
